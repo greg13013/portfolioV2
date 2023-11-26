@@ -4,7 +4,7 @@ export const DATA = {
   main: {
     nom: "Colli Grégory",
     statut: "Développeur web",
-    image: "/src/assets/avatar_cp_big.jpg",
+    image: `${import.meta.env.VITE_URL}/assets/avatar_cp_big.jpg`,
     bio: "Intéressé par l'informatique depuis mes 10ans, plutôt \"touche à tout\", de nature curieux avec une forte autonomie, j'ai décidé de m'orienter dans l'IT durant mes années d'études pour en apprendre en plus sur l'univers du développement.\nSuite à l'obtention de mon diplôme, j'ai dû choisir entre une carrière pro et une aventure personnelle dans l'univers de la pêche.\nLa crise du COVID a mis fin à ce projet de collaboration mais je n'ai jamais arrêté de suivre les actualités web, les technos et j'ai toujours poursuivi une veille technologique en pratiquant sur des projets perso.\nVoilà, pourquoi aujourd'hui, je suis disponible sur le marché du travail, en recherche active, plus motivé que jamais avec tout autant d'ambition.",
     email: "colli.gregory.13@gmail.com",
     tel: "06 64 54 78 80",
@@ -24,7 +24,7 @@ export const DATA = {
       },
       {
         nom: "cv",
-        url: "/src/CV-GREG-2023.pdf",
+        url: `${import.meta.env.VITE_URL}/CV-GREG-2023.pdf`,
         className: "fab fa-solid fa-file-pdf",
       },
     ],
@@ -73,55 +73,55 @@ export const DATA = {
     competence: [
       {
         nom: "HTML / CSS / SCSS",
-        img: "/src/assets/img/competences/html-5.svg",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/html-5.svg`,
       },
       {
         nom: "JavaScript / TypeScript",
-        img: "/src/assets/img/competences/typescript.svg",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/typescript.svg`,
       },
       {
         nom: "React",
-        img: "/src/assets/img/competences/react.svg",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/react.svg`,
       },
       {
         nom: "Redux",
-        img: "/src/assets/img/competences/redux.svg",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/redux.svg`,
       },
       {
         nom: "Jest",
-        img: "/src/assets/img/competences/jest.svg",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/jest.svg`,
       },
       {
         nom: "NextJS",
-        img: "/src/assets/img/competences/nextjs.svg",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/nextjs.svg`,
       },
       {
         nom: "Angular",
-        img: "/src/assets/img/competences/angular.svg",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/angular.svg`,
       },
       {
         nom: "SQL",
-        img: "/src/assets/img/competences/mysql.svg",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/mysql.svg`,
       },
       {
         nom: "PHP / PDO",
-        img: "/src/assets/img/competences/php.svg",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/php.svg`,
       },
       {
         nom: "Symfony",
-        img: "/src/assets/img/competences/symfony.svg",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/symfony.svg`,
       },
       {
         nom: "Express",
-        img: "/src/assets/img/competences/express.svg",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/express.svg`,
       },
       {
         nom: "Git",
-        img: "/src/assets/img/competences/git.svg",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/git.svg`,
       },
       {
         nom: "Azure DevOps",
-        img: "/src/assets/img/competences/microsoft-azure.svg",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/microsoft-azure.svg`,
       },
     ],
   },
@@ -129,7 +129,7 @@ export const DATA = {
     projets: [
       {
         titre: "WinWinDeveloppement - Application",
-        image: "/src/assets/projets/winwin.png",
+        image: `${import.meta.env.VITE_URL}/assets/projets/winwin.png`,
         url: "https://www.facebook.com/winwindeveloppementformation",
         categorie: [
           CATEGORIE_PROJET.perso,
@@ -145,7 +145,7 @@ export const DATA = {
       },
       {
         titre: "WinWinDeveloppement - Escape game",
-        image: "/src/assets/projets/escape.png",
+        image: `${import.meta.env.VITE_URL}/assets/projets/escape.png`,
         url: "#",
         categorie: [
           CATEGORIE_PROJET.perso,
@@ -162,7 +162,7 @@ export const DATA = {
       },
       {
         titre: "WinWinDeveloppement - Qui veut gagner des connaissances",
-        image: "/src/assets/projets/qvgdc.png",
+        image: `${import.meta.env.VITE_URL}/assets/projets/qvgdc.png`,
         url: "#",
         categorie: [
           CATEGORIE_PROJET.perso,
@@ -179,7 +179,7 @@ export const DATA = {
       },
       {
         titre: "WinWinDeveloppement - 60 secondes chrono",
-        image: "/src/assets/projets/60secondeChrono.png",
+        image: `${import.meta.env.VITE_URL}/assets/projets/60secondeChrono.png`,
         url: "#",
         categorie: [
           CATEGORIE_PROJET.perso,
@@ -196,7 +196,7 @@ export const DATA = {
       },
       {
         titre: "WinWinDeveloppement - Le grand quizz",
-        image: "/src/assets/projets/leGrandQuizz.png",
+        image: `${import.meta.env.VITE_URL}/assets/projets/leGrandQuizz.png`,
         url: "#",
         categorie: [
           CATEGORIE_PROJET.perso,
@@ -213,7 +213,7 @@ export const DATA = {
       },
       {
         titre: "WinWinDeveloppement - Site vitrine",
-        image: "/src/assets/projets/winwinVitrine.png",
+        image: `${import.meta.env.VITE_URL}/assets/projets/winwinVitrine.png`,
         url: "https://natam.fr/next/",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.next],
         courteDescription: "Site vitrine pour l'application WinWinDéveloppement",
@@ -223,7 +223,7 @@ export const DATA = {
       },
       {
         titre: "Close Info",
-        image: "/src/assets/projets/closeInfo.png",
+        image: `${import.meta.env.VITE_URL}/assets/projets/closeInfo.png`,
         url: "https://close-info.fr/",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.react, CATEGORIE_PROJET.express],
         courteDescription:
@@ -234,7 +234,7 @@ export const DATA = {
       },
       {
         titre: "Natam",
-        image: "/src/assets/projets/natam.png",
+        image: `${import.meta.env.VITE_URL}/assets/projets/natam.png`,
         url: "https://natam.fr/",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.javascript, CATEGORIE_PROJET.react],
         courteDescription: "Site vitrine Natam + application administration en React",
@@ -244,7 +244,7 @@ export const DATA = {
       },
       {
         titre: "Projet 7 OC - Groupomania",
-        image: "/src/assets/projets/groupomania.PNG",
+        image: `${import.meta.env.VITE_URL}/assets/projets/groupomania.PNG`,
         url: "https://colligregory-groupomania.netlify.app",
         categorie: [
           CATEGORIE_PROJET.openclassroom,
@@ -259,7 +259,7 @@ export const DATA = {
       },
       {
         titre: "Roulette casino",
-        image: "/src/assets/projets/roulette.PNG",
+        image: `${import.meta.env.VITE_URL}/assets/projets/roulette.PNG`,
         url: "https://natam-roulette.netlify.app",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.angular],
         courteDescription: "Roulette crypto avec Metamask, \nFront - Angular, \nBack - Express",
@@ -269,7 +269,7 @@ export const DATA = {
       },
       {
         titre: "Projet 6 OC - Piiquante",
-        image: "/src/assets/projets/piiquante.PNG",
+        image: `${import.meta.env.VITE_URL}/assets/projets/piiquante.PNG`,
         url: "https://nostalgic-jennings-992350.netlify.app/",
         categorie: [CATEGORIE_PROJET.openclassroom, CATEGORIE_PROJET.express],
         courteDescription: "Projet 6 OpenClassroom - Application d'avis gastronomiques",
@@ -279,7 +279,7 @@ export const DATA = {
       },
       {
         titre: "Clash Royale API",
-        image: "/src/assets/projets/clashRoyaleAPI.PNG",
+        image: `${import.meta.env.VITE_URL}/assets/projets/clashRoyaleAPI.PNG`,
         url: "https://clashroyaleapi.netlify.app",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.react],
         courteDescription: "Utilisation de l'API du jeu Clash Royale, \nHébergement sur Netlify",
@@ -289,7 +289,7 @@ export const DATA = {
       },
       {
         titre: "Portfolio",
-        image: "/src/assets/projets/portfolio.PNG",
+        image: `${import.meta.env.VITE_URL}/assets/projets/portfolio.PNG`,
         url: "#",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.react],
         courteDescription: "Portfolio avec React",
@@ -299,7 +299,7 @@ export const DATA = {
       },
       {
         titre: "Site Web - Utilisation API public",
-        image: "/src/assets/projets/tft.PNG",
+        image: `${import.meta.env.VITE_URL}/assets/projets/tft.PNG`,
         url: "https://colli-gregory.alwaysdata.net/blizzardTft/",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.angular, CATEGORIE_PROJET.php],
         courteDescription:
@@ -310,7 +310,7 @@ export const DATA = {
       },
       {
         titre: "Projet 5 OC - Kanap",
-        image: "/src/assets/projets/kanap.PNG",
+        image: `${import.meta.env.VITE_URL}/assets/projets/kanap.PNG`,
         url: "https://greg13013.github.io/P5_Kanap/",
         categorie: [CATEGORIE_PROJET.openclassroom, CATEGORIE_PROJET.javascript],
         courteDescription: "Projet 5 OpenClassroom - Site e-commerce canapé",
@@ -320,7 +320,7 @@ export const DATA = {
       },
       {
         titre: "Projet 4 OC - La chouette agence",
-        image: "/src/assets/projets/laChouetteAgence.PNG",
+        image: `${import.meta.env.VITE_URL}/assets/projets/laChouetteAgence.PNG`,
         url: "https://greg13013.github.io/P4_LaChouetteAgence/",
         categorie: [CATEGORIE_PROJET.openclassroom],
         courteDescription: "Projet 4 OpenClassroom - Performance / SEO / Accessibilité",
@@ -330,7 +330,7 @@ export const DATA = {
       },
       {
         titre: "Projet 3 OC - Ohmyfood",
-        image: "/src/assets/projets/ohmyfood.PNG",
+        image: `${import.meta.env.VITE_URL}/assets/projets/ohmyfood.PNG`,
         url: "https://greg13013.github.io/P3_Ohmyfood/",
         categorie: [CATEGORIE_PROJET.openclassroom],
         courteDescription: "Projet 3 OpenClassroom - Reproduction maquette avec animation",
@@ -340,7 +340,7 @@ export const DATA = {
       },
       {
         titre: "Projet 2 OC - Booki",
-        image: "/src/assets/projets/booki.PNG",
+        image: `${import.meta.env.VITE_URL}/assets/projets/booki.PNG`,
         url: "https://greg13013.github.io/P2_Booki/",
         categorie: [CATEGORIE_PROJET.openclassroom],
         courteDescription: "Projet 2 OpenClassroom - Reproduction maquette",
@@ -350,7 +350,7 @@ export const DATA = {
       },
       {
         titre: "Eauservicedebebe",
-        image: "/src/assets/projets/eauservicedebebe.PNG",
+        image: `${import.meta.env.VITE_URL}/assets/projets/eauservicedebebe.PNG`,
         url: "https://eauservicedebebe.fr",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.angular],
         competence: ["Angular"],
@@ -361,7 +361,7 @@ export const DATA = {
       },
       {
         titre: "Site web - Jeux snake",
-        image: "/src/assets/projets/snake.PNG",
+        image: `${import.meta.env.VITE_URL}/assets/projets/snake.PNG`,
         url: "https://greg13013.github.io/snake/",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.javascript, CATEGORIE_PROJET.jeu],
         courteDescription: "Javascript - Reproduction snake",
