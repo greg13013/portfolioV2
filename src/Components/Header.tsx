@@ -1,7 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 import useGetHeightContainer from "../Hooks/useGetHeightContainer";
-import headerImg from "../assets/img/header-img.svg";
 import { ID } from "../constantes";
 import { DATA } from "../resumeData";
 import BlocSocial from "./BlocSocial";
@@ -28,7 +27,7 @@ export const Header = () => {
             <BlocSocial />
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img className="imgBanniere" src={headerImg} alt="Header espace" />
+            <img className="imgBanniere" src="./assets/img/header-img.svg" alt="Header espace" />
           </Col>
         </Row>
       </Container>

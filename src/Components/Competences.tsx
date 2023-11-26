@@ -1,5 +1,4 @@
 import { Col, Container, Row } from "react-bootstrap";
-import colorSharp from "../assets/img/color-sharp.png";
 import { ID } from "../constantes";
 import { DATA } from "../resumeData";
 import BlocCompetence from "./BlocCompetence";
@@ -25,7 +24,11 @@ export const Competences = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp} alt="background stack technique" />
+      <img
+        className="background-image-left"
+        src="./assets/img/color-sharp.png"
+        alt="background stack technique"
+      />
     </section>
   );
 };

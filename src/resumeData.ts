@@ -1,4 +1,4 @@
-import { CATEGORIE_PROJET } from "./constantes";
+import { CATEGORIE_PROJET, COMPETENCE } from "./constantes";
 
 export const DATA = {
   main: {
@@ -80,11 +80,11 @@ export const DATA = {
         img: `${import.meta.env.VITE_URL}/assets/img/competences/typescript.svg`,
       },
       {
-        nom: "React",
+        nom: COMPETENCE.react,
         img: `${import.meta.env.VITE_URL}/assets/img/competences/react.svg`,
       },
       {
-        nom: "Redux",
+        nom: COMPETENCE.redux,
         img: `${import.meta.env.VITE_URL}/assets/img/competences/redux.svg`,
       },
       {
@@ -92,11 +92,11 @@ export const DATA = {
         img: `${import.meta.env.VITE_URL}/assets/img/competences/jest.svg`,
       },
       {
-        nom: "NextJS",
+        nom: COMPETENCE.nextjs,
         img: `${import.meta.env.VITE_URL}/assets/img/competences/nextjs.svg`,
       },
       {
-        nom: "Angular",
+        nom: COMPETENCE.angular,
         img: `${import.meta.env.VITE_URL}/assets/img/competences/angular.svg`,
       },
       {
@@ -108,15 +108,15 @@ export const DATA = {
         img: `${import.meta.env.VITE_URL}/assets/img/competences/php.svg`,
       },
       {
-        nom: "Symfony",
+        nom: COMPETENCE.symfony,
         img: `${import.meta.env.VITE_URL}/assets/img/competences/symfony.svg`,
       },
       {
-        nom: "Express",
+        nom: COMPETENCE.express,
         img: `${import.meta.env.VITE_URL}/assets/img/competences/express.svg`,
       },
       {
-        nom: "Git",
+        nom: COMPETENCE.git,
         img: `${import.meta.env.VITE_URL}/assets/img/competences/git.svg`,
       },
       {
@@ -139,7 +139,7 @@ export const DATA = {
         ],
         courteDescription:
           "Logiciel métier de gestion de formation et d'apprentissage par le jeu React / Symfony",
-        competence: ["React", "Redux", "MUI", "Symfony"],
+        competence: [COMPETENCE.react, COMPETENCE.redux, COMPETENCE.mui, COMPETENCE.symfony],
         description:
           "Dans une équipe de 3 développeurs, pour répondre aux besoins de gestion d’un Organisme de formation : développement d’une application métier en React pour le front et Symfony pour le back \nDéveloppement de jeux interactifs (monopoly, qui veut gagner des millions) en React. \nBack : Réalisation d’api en architecture MVC, gestion du trail d’audit, injection du contexte utisateur via listener, gestion du JWT \nHébergement VPS chez OVH pour une autonomie et gestion totale du serveur web. \nHébergement et installation sur VPS de l’ERP/CRM Dolibarr et serveur de visio-conférence BigBlueButton.",
       },
@@ -156,7 +156,7 @@ export const DATA = {
         ],
         courteDescription:
           "Jeu éducatif pour les apprenants en formation, chasse aux trésors avec énigme",
-        competence: ["React", "Symfony"],
+        competence: [COMPETENCE.react, COMPETENCE.symfony],
         description:
           "Jeu éducatif pour les apprenants en formation, chasse aux trésors avec énigme \nLe formateur peut créer et personnaliser le jeu (choix de la carte, choix de l'énigme, nbre de vie, chrono) \nFront: React \nBack: Symfony",
       },
@@ -173,7 +173,7 @@ export const DATA = {
         ],
         courteDescription:
           "Jeu éducatif pour les apprenants en formation avec un système de palier pour le score",
-        competence: ["React", "Symfony"],
+        competence: [COMPETENCE.react, COMPETENCE.symfony],
         description:
           "Jeu éducatif pour les apprenants en formation avec un système de palier pour le score \nLe formateur peut créer et personnaliser le jeu (choix des réponses, choix des questions, chrono) \nFront: React \nBack: Symfony",
       },
@@ -190,7 +190,7 @@ export const DATA = {
         ],
         courteDescription:
           "Jeu éducatif pour les apprenants en formation avec un système de palier et un QCM",
-        competence: ["React", "Symfony"],
+        competence: [COMPETENCE.react, COMPETENCE.symfony],
         description:
           "Jeu éducatif pour les apprenants en formation avec un système de palier et un QCM \nLe formateur peut créer et personnaliser le jeu (choix des réponses, choix des questions, chrono) \nFront: React \nBack: Symfony",
       },
@@ -207,7 +207,7 @@ export const DATA = {
         ],
         courteDescription:
           "Jeu éducatif pour les apprenants en formation avec un système de palier et un QCM",
-        competence: ["React", "Symfony"],
+        competence: [COMPETENCE.react, COMPETENCE.symfony],
         description:
           "Jeu éducatif pour les apprenants en formation avec un système de palier et un QCM \nLe formateur peut créer et personnaliser le jeu (choix des réponses, choix des questions, chrono) \nFront: React \nBack: Symfony",
       },
@@ -217,7 +217,7 @@ export const DATA = {
         url: "https://natam.fr/next/",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.next],
         courteDescription: "Site vitrine pour l'application WinWinDéveloppement",
-        competence: ["Next", "Bootstrap"],
+        competence: [COMPETENCE.nextjs, COMPETENCE.bootstrap],
         description:
           "Mise en place d’un site vitrine de présentation de l’application WinWinDéveloppement \nReproduction maquette figma \nAccessibilité + responsive",
       },
@@ -228,7 +228,7 @@ export const DATA = {
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.react, CATEGORIE_PROJET.express],
         courteDescription:
           "Application mobile - Réseau professionnel 100% dédié Closing, \nMise en relation entre closers et infopreneurs, \nDisponible sur Android & IOS",
-        competence: ["React", "Redux", "socket.io", "Express"],
+        competence: [COMPETENCE.react, COMPETENCE.redux, COMPETENCE.socketio, COMPETENCE.express],
         description:
           "Front - React Native, Back - Express \nRéseau professionnel 100% dédié Closing \nMise en relation entre closers et infopreneurs \nPremière communauté francophone \nDisponible sur google store & app store",
       },
@@ -238,7 +238,12 @@ export const DATA = {
         url: "https://natam.fr/",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.javascript, CATEGORIE_PROJET.react],
         courteDescription: "Site vitrine Natam + application administration en React",
-        competence: ["Javascript", "React", "Bootstrap", "Redux"],
+        competence: [
+          COMPETENCE.javascript,
+          COMPETENCE.react,
+          COMPETENCE.bootstrap,
+          COMPETENCE.redux,
+        ],
         description:
           "Présentation de l’équipe, des différents services, mise à disposition d’un catalogue \nMise en place d’un chatbot \nMise en place d’un suivi d’actualité avec l’API de twitter \nCréation d’un formulaire de devis / estimation \nCréation de l'API Natam avec SpringBoot \nMise en place CRUD \nMise en place route publique et sécurisé \nCréation token JWT (SpringSecurity) \nCréation d'une application web React \nUtilisation hook de React + hook de React redux \nMise en place route avec react router \nMise en place authentification + Stockage JWT dans cookie sécurisé \nAfficher les newsletters \nAfficher les devis et estimation de l’entreprise avec filtre selon statut (en cours ou terminer) \nDéploiement en production sur OVH",
       },
@@ -253,7 +258,7 @@ export const DATA = {
         ],
         courteDescription:
           "Projet 7 Openclassroom - Création d’un réseau social pour entreprise (Frontend et Backend), \nHébergement sur Netlify",
-        competence: ["React", "Redux", "Netlify"],
+        competence: [COMPETENCE.react, COMPETENCE.redux, COMPETENCE.netlify],
         description:
           "Front - React, Back - Express \nCréation d’un réseau social pour entreprise (Frontend et Backend) \nStructuration d’un projet React \nUtilisation des différents hooks de React (useState, useEffect, useRef) et les hooks de redux (useSelector, useDispatch) \nMise en place thème sombre / thème lumineux avec useContext \nUtilisation de Axios pour les appels à l’API \nGestion des routes avec react-router-dom \nGestion authentification d’un utilisateur \nGestion de la partie Administrateur \nGestion des posts et commentaires \nUtilisation de Redux avec react-redux, redux \nUtilisation de Sass \nUtilisation de materialize \nCréation d’une API avec Express, Base de donnée Mysql, utilisation de sequelize, respect sécurité OWASP \nMaintien d’un schéma d’architecture de l’application",
       },
@@ -263,7 +268,7 @@ export const DATA = {
         url: "https://natam-roulette.netlify.app",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.angular],
         courteDescription: "Roulette crypto avec Metamask, \nFront - Angular, \nBack - Express",
-        competence: ["Angular", "Express", "web3", "Git"],
+        competence: [COMPETENCE.angular, COMPETENCE.express, COMPETENCE.web3, COMPETENCE.git],
         description:
           "Front - Angular, \nBack - Express, \nApplication web d'une roulette de casino avec la cryptomonnaie,\nConnexion à Metamask, \nInterface de création de machine à sous, \nUtilisation de httpClient pour des appels à l'API, \nUtilisation de Heroku pour le déploiement à partir de Git, \nMise en place d'une documentation, \nUtilisation de git pour le versionning, \nCréation version mobile avec Ionic",
       },
@@ -273,7 +278,7 @@ export const DATA = {
         url: "https://nostalgic-jennings-992350.netlify.app/",
         categorie: [CATEGORIE_PROJET.openclassroom, CATEGORIE_PROJET.express],
         courteDescription: "Projet 6 OpenClassroom - Application d'avis gastronomiques",
-        competence: ["Javascript", "Express"],
+        competence: [COMPETENCE.javascript, COMPETENCE.express],
         description:
           "Création d’une API avec EXPRESS et MongoDB pour un site de sauce piquante \nGestion routes, controllers, modèles \nGestion des middlewares \nSécurité token sur toutes les routes à part login et signup et respect sécurité OWASP \nImplémentation d’un modèle logique de données conformément à la réglementation \nStockage des données de manière sécurisée \nMettre en œuvre des opérations CRUD de manière sécurisée \nDéploiement sur Heroku pour les backend et Netlify pour les frontend",
       },
@@ -283,7 +288,7 @@ export const DATA = {
         url: "https://clashroyaleapi.netlify.app",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.react],
         courteDescription: "Utilisation de l'API du jeu Clash Royale, \nHébergement sur Netlify",
-        competence: ["React", "Netlify"],
+        competence: [COMPETENCE.react, COMPETENCE.netlify],
         description:
           "Front - React, \nUtilisation de l'API publique du jeu mobile Clash Royale \nUtilisation des différents hooks : \n- useState \n- useEffect \n -useRef \n -useContext \nUtilisation de react-materialize pour le style",
       },
@@ -293,7 +298,7 @@ export const DATA = {
         url: "#",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.react],
         courteDescription: "Portfolio avec React",
-        competence: ["React"],
+        competence: [COMPETENCE.react],
         description:
           "Utilisation de React pour faire mon portfolio \nUtilisation des différents hooks : \n- useState \n- useEffect \n- useRef \nUtilisation de react-bootstrap pour le style",
       },
@@ -304,7 +309,7 @@ export const DATA = {
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.angular, CATEGORIE_PROJET.php],
         courteDescription:
           "Angular \nExploitation API publique pour l'univers du gaming Blizzard & Riot",
-        competence: ["Angular"],
+        competence: [COMPETENCE.angular],
         description:
           "Application front Angular avec exploitation API publique pour l'univers du gaming :\n- WOW consulting : afficher les personnages/montures du compte du jeu World Of Warcraft avec l’API  Blizzard - API Blizzard\n- TFT Statistiques : Afficher l’historique des parties du jeu TeamFight Tactics avec l’API Riot - API Riot \nAuthentification Oauth2, récupération token",
       },
@@ -314,7 +319,7 @@ export const DATA = {
         url: "https://greg13013.github.io/P5_Kanap/",
         categorie: [CATEGORIE_PROJET.openclassroom, CATEGORIE_PROJET.javascript],
         courteDescription: "Projet 5 OpenClassroom - Site e-commerce canapé",
-        competence: ["Javascript"],
+        competence: [COMPETENCE.javascript],
         description:
           "Création de la logique avec Javascript d’un site e-commerce \nRécupération des données d’une API puis les afficher \nStructuration d’un projet \nGérer les données de manière dynamique \nGestion d’un panier \nGestion d’un formulaire Contact avec vérification avant l’envoie pour éviter des erreurs éventuelles \nGestion des données lors de l’envoie à l’API \nInteraction avec un web service avec JavaScript \nGestion des événements JavaScript \nValidation des données issues de sources externes \nCréation d’un plan de test pour une application \nDéploiement avec github page",
       },
@@ -353,7 +358,7 @@ export const DATA = {
         image: `${import.meta.env.VITE_URL}/assets/img/projets/eauservicedebebe.PNG`,
         url: "https://eauservicedebebe.fr",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.angular],
-        competence: ["Angular"],
+        competence: [COMPETENCE.angular],
         courteDescription:
           "Angular - Création site web avec base de données SQL (Express - Sequelize) pour des prestations et conseils pour jeunes mamans",
         description:
@@ -365,7 +370,7 @@ export const DATA = {
         url: "https://greg13013.github.io/snake/",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.javascript, CATEGORIE_PROJET.jeu],
         courteDescription: "Javascript - Reproduction snake",
-        competence: ["Javascript"],
+        competence: [COMPETENCE.javascript],
         description: "Reproduction du jeux snake en javascript",
       },
     ],

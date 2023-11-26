@@ -1,92 +1,69 @@
-import angularIcon from "./assets/img/competences/angular.svg";
-import bootstrapIcon from "./assets/img/competences/bootstrap.svg";
-import cssIcon from "./assets/img/competences/css-3.svg";
-import expressIcon from "./assets/img/competences/express.svg";
-import gitIcon from "./assets/img/competences/git.svg";
-import htmlIcon from "./assets/img/competences/html-5.svg";
-import javascriptIcon from "./assets/img/competences/javascript.svg";
-import lighthouseIcon from "./assets/img/competences/lighthouse.svg";
-import muiIcon from "./assets/img/competences/material-ui.svg";
-import sqlIcon from "./assets/img/competences/mysql.svg";
-import netlifyIcon from "./assets/img/competences/netlify.svg";
-import { default as nextIcon, default as nextjsIcon } from "./assets/img/competences/nextjs.svg";
-import nodejsIcon from "./assets/img/competences/nodejs.svg";
-import phpIcon from "./assets/img/competences/php.svg";
-import reactIcon from "./assets/img/competences/react.svg";
-import reduxIcon from "./assets/img/competences/redux.svg";
-import sassIcon from "./assets/img/competences/sass.svg";
-import socketIoIcon from "./assets/img/competences/socket.io.svg";
-import symfonyIcon from "./assets/img/competences/symfony.svg";
-import typescriptIcon from "./assets/img/competences/typescript.svg";
-import web3Icon from "./assets/img/competences/web3js.svg";
+import { COMPETENCE } from "./constantes";
 
 export const getIcone = (element: string) => {
-  switch (element.toLowerCase()) {
-    case "react":
-      return reactIcon;
+  switch (element) {
+    case COMPETENCE.react:
+      return "./assets/img/competences/react.svg";
 
-    case "nextjs":
-      return nextjsIcon;
+    case COMPETENCE.nextjs:
+      return "./assets/img/competences/nextjs.svg";
 
-    case "css":
-      return cssIcon;
+    case COMPETENCE.css:
+      return "./assets/img/competences/css-3.svg";
 
-    case "angular":
-      return angularIcon;
+    case COMPETENCE.angular:
+      return "./assets/img/competences/angular.svg";
 
-    case "nodejs":
-      return nodejsIcon;
+    case COMPETENCE.nodejs:
+      return "./assets/img/competences/nodejs.svg";
 
-    case "typescript":
-      return typescriptIcon;
+    case COMPETENCE.typescript:
+      return "./assets/img/competences/typescript.svg";
 
-    case "javascript":
-      return javascriptIcon;
+    case COMPETENCE.javascript:
+      return "./assets/img/competences/javascript.svg";
 
-    case "express":
-      return expressIcon;
+    case COMPETENCE.express:
+      return "./assets/img/competences/express.svg";
 
-    case "html":
-      return htmlIcon;
+    case COMPETENCE.html:
+      return "./assets/img/competences/html-5.svg";
 
-    case "git":
-      return gitIcon;
+    case COMPETENCE.git:
+      return "./assets/img/competences/git.svg";
 
-    case "mysql":
-      return sqlIcon;
+    case COMPETENCE.mysql:
+      return "./assets/img/competences/mysql.svg";
 
-    case "php":
-      return phpIcon;
+    case COMPETENCE.php:
+      return "./assets/img/competences/php.svg";
 
-    case "symfony":
-      return symfonyIcon;
+    case COMPETENCE.symfony:
+      return "./assets/img/competences/symfony.svg";
 
-    case "sass":
-      return sassIcon;
+    case COMPETENCE.sass:
+      return "./assets/img/competences/sass.svg";
 
-    case "lighthouse":
-      return lighthouseIcon;
+    case COMPETENCE.lighthouse:
+      return "./assets/img/competences/lighthouse.svg";
 
-    case "netlify":
-      return netlifyIcon;
+    case COMPETENCE.netlify:
+      return "./assets/img/competences/netlify.svg";
 
-    case "redux":
-      return reduxIcon;
+    case COMPETENCE.redux:
+      return "./assets/img/competences/redux.svg";
 
-    case "web3":
-      return web3Icon;
+    case COMPETENCE.web3:
+      return "./assets/img/competences/web3js.svg";
 
-    case "mui":
-      return muiIcon;
+    case COMPETENCE.mui:
+      return "./assets/img/competences/material-ui.svg";
 
-    case "socket.io":
-      return socketIoIcon;
+    case COMPETENCE.socketio:
+      return "./assets/img/competences/socket.io.svg";
 
-    case "bootstrap":
-      return bootstrapIcon;
-
-    case "next":
-      return nextIcon;
+    case COMPETENCE.bootstrap:
+      return "./assets/img/competences/bootstrap.svg";
 
     default:
       return undefined;
