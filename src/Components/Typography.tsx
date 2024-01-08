@@ -8,6 +8,7 @@ interface ITypographyProps {
   className?: string;
   italic?: boolean;
   color?: "text-white" | "text-black" | undefined;
+  style?: React.CSSProperties;
 }
 
 const Typography: React.FC<ITypographyProps> = ({
@@ -18,6 +19,7 @@ const Typography: React.FC<ITypographyProps> = ({
   italic,
   className,
   color,
+  style,
 }) => {
   const getStyles = React.useCallback(() => {
     const styles: string[] = ["typoP"];
@@ -34,7 +36,11 @@ const Typography: React.FC<ITypographyProps> = ({
     return styles.join(" ");
   }, [h2, h3, disabledMargin, italic, className, color]);
 
-  return <p className={getStyles()}>{children}</p>;
+  return (
+    <p className={getStyles()} style={style}>
+      {children}
+    </p>
+  );
 };
 
 export default Typography;

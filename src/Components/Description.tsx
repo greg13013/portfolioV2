@@ -21,7 +21,7 @@ const Description: React.FC = () => {
             <Typography h2 color="text-white">
               A propos de moi
             </Typography>
-            <Typography>{DATA.main.bio}</Typography>
+            <Typography style={{ whiteSpace: "pre-line" }}>{DATA.main.bio}</Typography>
 
             <Typography h2 color="text-white">
               Coordonées

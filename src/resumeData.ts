@@ -5,7 +5,36 @@ export const DATA = {
     nom: "Colli Grégory",
     statut: "Développeur web",
     image: `${import.meta.env.VITE_URL}/assets/img/avatar_cp_big.jpg`,
-    bio: "Intéressé par l'informatique depuis mes 10ans, plutôt \"touche à tout\", de nature curieux avec une forte autonomie, j'ai décidé de m'orienter dans l'IT durant mes années d'études pour en apprendre en plus sur l'univers du développement.\nSuite à l'obtention de mon diplôme, j'ai dû choisir entre une carrière pro et une aventure personnelle dans l'univers de la pêche.\nLa crise du COVID a mis fin à ce projet de collaboration mais je n'ai jamais arrêté de suivre les actualités web, les technos et j'ai toujours poursuivi une veille technologique en pratiquant sur des projets perso.\nVoilà, pourquoi aujourd'hui, je suis disponible sur le marché du travail, en recherche active, plus motivé que jamais avec tout autant d'ambition.",
+    bio: "Salut à tous ! Les adeptes du code et les passionnés de GPU ! 👨‍💻✨\n\
+    \nJe suis Colli Grégory, un développeur web indépendant, voguant à travers les océans du développement logiciel comme un navigateur intrépide. 🚀\n\
+    Passionné par la création numérique, avide d'apprentissage, toujours en quête de nouveaux défis, je suis un esprit curieux, autonome et dynamique. Je partage avec vous mes succès et mes expériences ! \n\
+    \n🚀 Qui suis-je ?\n\
+    Un constructeur habile de logiciels, un jongleur de langages, et un amoureux du code. Je construis des ponts entre les idées et la réalité plus rapidement que le chargement d'une page web.\n\
+    \n🎯 Développeur Front-End avec une passion pour l'innovation\n\
+    \n🔧 Compétences Front-End :\n\
+    Conception et développement d'interfaces utilisateur interactives.\n\
+    Création d'expériences utilisateur captivantes avec HTML5, CSS3, et JavaScript.\n\
+    Utilisation de diverses technologies et frameworks pour optimiser le développement.\n\
+    Intégration de designs responsive pour une expérience sans faille sur tous les appareils.\n\
+    \n🚀 Polyvalent et ouvert à toutes les technologies\n\
+    Ma passion pour l'apprentissage me pousse à explorer constamment de nouvelles technologies. Je suis à l'aise avec une variété de frameworks Front-End et toujours ouvert à de nouvelles découvertes.\n\
+    \n🎯 Développeur Back-End en progression\n\
+    \n🔧 Compétences Back-End :\n\
+    Manipulation de bases de données et gestion de serveurs.\n\
+    Conception et développement de fonctionnalités côté serveur.\n\
+    Utilisation de technologies comme Node.js pour des applications robustes et évolutives.\n\
+    \n🏗️ Architecte Logiciel : Que vous ayez une vision claire ou simplement une idée floue, je suis là pour concrétiser vos projets numériques.\n\
+    \n💼 Pourquoi moi ?\n\
+    Parce que je transforme des lignes de code en solutions numériques avec la précision d'un chef cuisinier préparant un plat exquis. 🍲\n\
+    Soucieux de la qualité, de la sécurité et des meilleures pratiques, je suis prêt à relever tous les défis.\n\
+    \n🌎 Expérience variée\n\
+    J'ai collaboré avec des esprits créatifs du monde entier. Mon réseau est aussi étendu que la portée d'un signal Wi-Fi dans un cybercafé.\n\
+    \n💬 Ce que mes collaborateurs disent de moi\n\
+    'Un codeur d'exception, une légende vivante !' - Un client satisfait.\n\
+    \n💻 Disponible pour de nouveaux projets\n\
+    Prêt à créer des expériences numériques incroyables ensemble ! Que ce soit pour donner vie à une idée géniale ou pour concrétiser vos projets, je suis là !\n\
+    \n🌟 Travaillons ensemble !\n\
+    Contactez-moi, et conjuguons nos talents pour créer une symphonie de code mémorable.",
     email: "colli.gregory.13@gmail.com",
     tel: "06 64 54 78 80",
     adresse: {
