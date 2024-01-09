@@ -53,7 +53,7 @@ export const DATA = {
       },
       {
         nom: "cv",
-        url: `${import.meta.env.VITE_URL}/CV-GREG-2023.pdf`,
+        url: `${import.meta.env.VITE_URL}/CV-GREGORY-2023.pdf`,
         className: "fab fa-solid fa-file-pdf",
       },
     ],
