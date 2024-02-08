@@ -159,7 +159,7 @@ export const DATA = {
       {
         titre: "WinWinDeveloppement - Application",
         image: `${import.meta.env.VITE_URL}/assets/img/projets/winwin.png`,
-        url: "https://www.facebook.com/winwindeveloppementformation",
+        url: "https://app.demo.winwindeveloppement.fr",
         categorie: [
           CATEGORIE_PROJET.perso,
           CATEGORIE_PROJET.react,
@@ -243,7 +243,7 @@ export const DATA = {
       {
         titre: "WinWinDeveloppement - Site vitrine",
         image: `${import.meta.env.VITE_URL}/assets/img/projets/winwinVitrine.png`,
-        url: "https://natam.fr/next/",
+        url: "https://winwindeveloppement.fr",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.next],
         courteDescription: "Site vitrine pour l'application WinWinDéveloppement",
         competence: [COMPETENCE.nextjs, COMPETENCE.bootstrap],
