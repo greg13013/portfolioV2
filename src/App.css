@@ -386,7 +386,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .experience .descriptionExperience {
   margin: 15px;
-  white-space: pre-wrap;
+  white-space: pre-line;
 }
 
 /************ Competence Css ************/

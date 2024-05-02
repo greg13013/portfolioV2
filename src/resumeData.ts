@@ -53,13 +53,29 @@ export const DATA = {
       },
       {
         nom: "cv",
-        url: `${import.meta.env.VITE_URL}/CV-GREGORY-2023.pdf`,
+        url: `${import.meta.env.VITE_URL}/CV-GREGORY-2024.pdf`,
         className: "fab fa-solid fa-file-pdf",
       },
     ],
   },
   resume: {
     experienceProfessionelle: [
+      {
+        nom: "HR Team - R&D Lab Scalian",
+        titre: "Développeur web - Next / NodeJs",
+        date: "Janvier 2024 - Mai 2024",
+        description:
+          "En intercontrat chez HR Team,\n\
+          j'ai été intégré dans l'équipe R&D du LAB de Scalian sur un projet de comparaison d'image visuel\n\
+          L'utilisateur a le choix de comparer 2 images qui ont été retravaillés avec des algorithmes IA et ensuite se voit attribuer un elo score pour avoir différentes statistiques\n\
+          J'ai été chargé de compléter la documentation existante et améliorer l'application qui avait été commencé.\n\
+          L'équipe est en méthode AGILE avec JIRA pour le backlog \n\
+          Le versionning se fait avec Gitlab\n\
+          Le projet est composé de 3 applications : \n\
+           - Le frontend en NextJS - Typescript et MUI pour le design system\n\
+           - Le backend en NodeJS Express - Typescript \n\
+           - Le backoffice en NextJS - Typescript et MUI pour le design system",
+      },
       {
         nom: "HR Team - Mission chez CEGID",
         titre: "Développeur web - React",
@@ -88,7 +104,7 @@ export const DATA = {
         diplome: "Septembre 2021 - Mars 2022",
         titre: "Titre RNCP de niveau 5 (Bac+2).",
         description:
-          "Compétences acquises : Découper, assembler et intégrer tous les éléments d’une maquette graphique en HTML5 et CSS ;\nAjouter du contenu audio et vidéo en HTML5 ;\nAnimer les pages web avec CSS3 ;\nAppliquer les standards du web et les normes en vigueur ;\nConstruire un site web fluide s’adaptant à tout type d’écran (web, smartphone et tablette) ;\nAméliorer le référencement naturel en utilisant les balises selon leur sémantique ;\nFaire réagir la page web en fonction des actions de l’utilisateur en JavaScript ;\nSe connecter à un service web pour exploiter des données tierces (API) ;\nGérer les comptes utilisateurs ;\nConcevoir un site maintenable grâce à la gestion des erreurs et exceptions ;\nCréer, gérer et afficher le contenu d’une base de données.",
+          "Compétences acquises : Découper, assembler et intégrer tous les éléments d’une maquette graphique en HTML5 et CSS \nAjouter du contenu audio et vidéo en HTML5 \nAnimer les pages web avec CSS3 \nAppliquer les standards du web et les normes en vigueur \nConstruire un site web fluide s’adaptant à tout type d’écran (web, smartphone et tablette) \nAméliorer le référencement naturel en utilisant les balises selon leur sémantique \nFaire réagir la page web en fonction des actions de l’utilisateur en JavaScript \nSe connecter à un service web pour exploiter des données tierces (API) \nGérer les comptes utilisateurs \nConcevoir un site maintenable grâce à la gestion des erreurs et exceptions \nCréer, gérer et afficher le contenu d’une base de données.",
       },
       {
         ecole: "Lycée Marie Curie",
@@ -151,6 +167,14 @@ export const DATA = {
       {
         nom: "Azure DevOps",
         img: `${import.meta.env.VITE_URL}/assets/img/competences/microsoft-azure.svg`,
+      },
+      {
+        nom: "Java",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/java.svg`,
+      },
+      {
+        nom: "Spring boot",
+        img: `${import.meta.env.VITE_URL}/assets/img/competences/springboot.svg`,
       },
     ],
   },

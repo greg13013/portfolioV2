@@ -16,7 +16,7 @@ export const Projets = () => {
 
   return (
     <section className="project" id={ID.projet}>
-      <Container fluid>
+      <Container>
         <Row>
           <Col>
             <Typography h2 color="text-white">
@@ -25,6 +25,7 @@ export const Projets = () => {
             <Typography disabledMargin>Voici la liste de mes projets</Typography>
             <Row>
               <Col>
+                Filtres :
                 {Object.values(CATEGORIE_PROJET).map((value) => (
                   <Button
                     key={value}
