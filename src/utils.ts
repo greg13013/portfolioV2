@@ -65,6 +65,12 @@ export const getIcone = (element: string) => {
     case COMPETENCE.bootstrap:
       return "./assets/img/competences/bootstrap.svg";
 
+    case COMPETENCE.java:
+      return "./assets/img/competences/java.svg";
+
+    case COMPETENCE.springBoot:
+      return "./assets/img/competences/springboot.svg";
+
     default:
       return undefined;
   }

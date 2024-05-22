@@ -10,7 +10,7 @@ export const DATA = {
     Passionné par la création numérique, avide d'apprentissage, toujours en quête de nouveaux défis, je suis un esprit curieux, autonome et dynamique. Je partage avec vous mes succès et mes expériences ! \n\
     \n🚀 Qui suis-je ?\n\
     Un constructeur habile de logiciels, un jongleur de langages, et un amoureux du code. Je construis des ponts entre les idées et la réalité plus rapidement que le chargement d'une page web.\n\
-    \n🎯 Développeur Front-End avec une passion pour l'innovation\n\
+    \n🎯 Développeur web avec une passion pour l'innovation\n\
     \n🔧 Compétences Front-End :\n\
     Conception et développement d'interfaces utilisateur interactives.\n\
     Création d'expériences utilisateur captivantes avec HTML5, CSS3, et JavaScript.\n\
@@ -82,6 +82,21 @@ export const DATA = {
         date: "Mai 2022 - Décembre 2023",
         description:
           "Développeur front d'une équipe de 4 développeurs organisé en Agilité : sprint de 2 semaine, l'équipe s'appuie sur un architecte, une équipe design system, une équipe de production. \nDans le cadre du développement d'un nouveau produit from scratch qui s'imbrique à plusieurs solutions de l'entreprise à destination de l'univers de la comptabilité \nL'outil gère les besoins d'un cabinet comptable en termes de ressources, saisies des temps, frais, workflow \nTechnologies : \n•	DevOps : Azure DevOps \n•	CI/CD : Dev, Inte, prod \n•	Framework: React 18 - Typescript \n•	State Manager: Redux / redux toolkit \n•	UI Framework: MUI / Cegid Design System \n•	Gestionnaire de libraire: Jfrog npm \n•	Tests unitaires: Jest / RTL \n•	Qualité : Sonar \n•	Architecture: microservice API / DDD \n•	Notification web sockets: SignalR react",
+      },
+      {
+        nom: "Natam - Développeur fullstack",
+        titre: "Développeur web - Framework JS / Java",
+        date: "Janvier 2020 - Aujourd'hui",
+        description:
+          "Groupe de développeur passionnés sur les domaines du développement IT web et logiciel fullstack principalement sur des framework JS\n\
+          - Angular \n\
+          - React \n\
+          - VueJS \n\
+          - Java (springboot) \n\
+          - Php (symfony) \n\
+          - Saas \n\
+          - Sql \n\
+          Veille technologique, mise en commun des compétences, réalisation de plusieurs projet online, expérimentations de nouvelles librairies, framework et API, stratégie de communication et de développement.",
       },
       {
         nom: "Cabinet condorcet",
@@ -181,9 +196,9 @@ export const DATA = {
   portfolio: {
     projets: [
       {
-        titre: "WinWinDeveloppement - Application",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/winwin.png`,
-        url: "https://app.demo.winwindeveloppement.fr",
+        titre: "Witfizz - Application",
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/witfizz/witfizz_app.png`],
+        url: "https://app.demo.witfizz.fr",
         categorie: [
           CATEGORIE_PROJET.perso,
           CATEGORIE_PROJET.react,
@@ -197,8 +212,12 @@ export const DATA = {
           "Dans une équipe de 3 développeurs, pour répondre aux besoins de gestion d’un Organisme de formation : développement d’une application métier en React pour le front et Symfony pour le back \nDéveloppement de jeux interactifs (monopoly, qui veut gagner des millions) en React. \nBack : Réalisation d’api en architecture MVC, gestion du trail d’audit, injection du contexte utisateur via listener, gestion du JWT \nHébergement VPS chez OVH pour une autonomie et gestion totale du serveur web. \nHébergement et installation sur VPS de l’ERP/CRM Dolibarr et serveur de visio-conférence BigBlueButton.",
       },
       {
-        titre: "WinWinDeveloppement - Escape game",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/escape.png`,
+        titre: "Witfizz - Save Feny",
+        image: [
+          `${import.meta.env.VITE_URL}/assets/img/projets/witfizz/jeu/saveFeny/saveFeny.webp`,
+          `${import.meta.env.VITE_URL}/assets/img/projets/witfizz/jeu/saveFeny/explication.webp`,
+          `${import.meta.env.VITE_URL}/assets/img/projets/witfizz/jeu/saveFeny/jeu.webp`,
+        ],
         url: "#",
         categorie: [
           CATEGORIE_PROJET.perso,
@@ -211,11 +230,36 @@ export const DATA = {
           "Jeu éducatif pour les apprenants en formation, chasse aux trésors avec énigme",
         competence: [COMPETENCE.react, COMPETENCE.symfony],
         description:
-          "Jeu éducatif pour les apprenants en formation, chasse aux trésors avec énigme \nLe formateur peut créer et personnaliser le jeu (choix de la carte, choix de l'énigme, nbre de vie, chrono) \nFront: React \nBack: Symfony",
+          "Votre apprenant se trouve projeter dans un ancien hôpital psychiatrique désaffecté, ou il devra délivrer Melle Feny du terrible Professeur Crash en traversant les 6 salles, récoltant les indices et résolvant les énigmes, tout en évitant les pièges temps dissimulés. \nA chaque salle réussi votre apprenant obtiendra une partie du code lui permettant de l’ibère Melle Feny. \nSera-t-il à la hauteur du défi ? \nFront: React \nBack: Symfony",
       },
       {
-        titre: "WinWinDeveloppement - Qui veut gagner des connaissances",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/qvgdc.png`,
+        titre: "Witfizz - Escape game",
+        image: [
+          `${import.meta.env.VITE_URL}/assets/img/projets/witfizz/jeu/escapeGame/escapeGame.webp`,
+          `${import.meta.env.VITE_URL}/assets/img/projets/witfizz/jeu/escapeGame/carteJeu.webp`,
+          `${import.meta.env.VITE_URL}/assets/img/projets/witfizz/jeu/escapeGame/ecranReponse.webp`,
+        ],
+        url: "#",
+        categorie: [
+          CATEGORIE_PROJET.perso,
+          CATEGORIE_PROJET.react,
+          CATEGORIE_PROJET.symfony,
+          CATEGORIE_PROJET.php,
+          CATEGORIE_PROJET.jeu,
+        ],
+        courteDescription:
+          "Jeu éducatif pour les apprenants en formation, chasse aux trésors avec énigme",
+        competence: [COMPETENCE.react, COMPETENCE.symfony],
+        description:
+          "Funny est piégé ! Et vos apprenants sont les seules personnes à pouvoir le sauver. Ils devront trouver la réponse à l’énigme que vous aurez configuré, ce grâce aux indices que vous aurez caché dans différent objet de la pièce. \nMais attention ! Ce jeu est chronométré et des piège temps qui accélère le chronomètre sont aussi dissimulé dans les objets, alors il leur faudra cliquer sans trembler ! \nDans ce jeu vous pouvez choisir la salle que vous désirez configurer, parmi une bibliothèque de 15 modèles. \nLe formateur peut créer et personnaliser le jeu (choix de la carte, choix de l'énigme, nbre de vie, chrono) \nFront: React \nBack: Symfony",
+      },
+      {
+        titre: "Witfizz - Qui veut gagner des connaissances",
+        image: [
+          `${import.meta.env.VITE_URL}/assets/img/projets/witfizz/jeu/qvgdc/qvgdc.webp`,
+          `${import.meta.env.VITE_URL}/assets/img/projets/witfizz/jeu/qvgdc/echellePoint.webp`,
+          `${import.meta.env.VITE_URL}/assets/img/projets/witfizz/jeu/qvgdc/jeu.webp`,
+        ],
         url: "#",
         categorie: [
           CATEGORIE_PROJET.perso,
@@ -228,11 +272,21 @@ export const DATA = {
           "Jeu éducatif pour les apprenants en formation avec un système de palier pour le score",
         competence: [COMPETENCE.react, COMPETENCE.symfony],
         description:
-          "Jeu éducatif pour les apprenants en formation avec un système de palier pour le score \nLe formateur peut créer et personnaliser le jeu (choix des réponses, choix des questions, chrono) \nFront: React \nBack: Symfony",
+          "L’apprenant fait face à notre JP à nous ! Incarné par Funny, la mascotte de l’app WitFizz. Comme pour le jeu original, votre apprenant bénéficie de JOCKER et doit répondre à une série de question, que vous aurez soigneusement configuré en fonction de votre contenu et du niveau de vos apprenants, pour gravir l’échelle des gains ! \nC’est votre dernier mot ?! \nLe formateur peut créer et personnaliser le jeu (choix des réponses, choix des questions, chrono) \nFront: React \nBack: Symfony",
       },
       {
-        titre: "WinWinDeveloppement - 60 secondes chrono",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/60secondeChrono.png`,
+        titre: "Witfizz - 60 secondes chrono",
+        image: [
+          `${
+            import.meta.env.VITE_URL
+          }/assets/img/projets//witfizz/jeu/60secondeChrono/60secondeChrono.webp`,
+          `${
+            import.meta.env.VITE_URL
+          }/assets/img/projets//witfizz/jeu/60secondeChrono/carteJeu.webp`,
+          `${
+            import.meta.env.VITE_URL
+          }/assets/img/projets//witfizz/jeu/60secondeChrono/salleDynamite.webp`,
+        ],
         url: "#",
         categorie: [
           CATEGORIE_PROJET.perso,
@@ -245,11 +299,15 @@ export const DATA = {
           "Jeu éducatif pour les apprenants en formation avec un système de palier et un QCM",
         competence: [COMPETENCE.react, COMPETENCE.symfony],
         description:
-          "Jeu éducatif pour les apprenants en formation avec un système de palier et un QCM \nLe formateur peut créer et personnaliser le jeu (choix des réponses, choix des questions, chrono) \nFront: React \nBack: Symfony",
+          "L'apprenant est appelé sur le terrain pour sauver votre univers, que le formateur aura sélectionné parmi les 15 modeles en désamorçant une série de bombes qui ont été placé par l’autoproclamer « Maitre des Bombes » ! Votre apprenant dispose de 60 secondes par bombe, il devra répondre à la question que vous lui avez concocté dans les temps pour désamorcer les bombes et mettre en déroute le « Maitre des Bombes ». \nLe formateur peut créer et personnaliser le jeu (choix des réponses, choix des questions, chrono) \nFront: React \nBack: Symfony",
       },
       {
-        titre: "WinWinDeveloppement - Le grand quizz",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/leGrandQuizz.png`,
+        titre: "Witfizz - Le grand quizz",
+        image: [
+          `${import.meta.env.VITE_URL}/assets/img/projets/witfizz/jeu/lgq/lgq.webp`,
+          `${import.meta.env.VITE_URL}/assets/img/projets/witfizz/jeu/lgq/jeu.webp`,
+          `${import.meta.env.VITE_URL}/assets/img/projets/witfizz/jeu/lgq/perdu.webp`,
+        ],
         url: "#",
         categorie: [
           CATEGORIE_PROJET.perso,
@@ -262,21 +320,21 @@ export const DATA = {
           "Jeu éducatif pour les apprenants en formation avec un système de palier et un QCM",
         competence: [COMPETENCE.react, COMPETENCE.symfony],
         description:
-          "Jeu éducatif pour les apprenants en formation avec un système de palier et un QCM \nLe formateur peut créer et personnaliser le jeu (choix des réponses, choix des questions, chrono) \nFront: React \nBack: Symfony",
+          "Le formateur peut évaluer et encrer les connaissances de ces apprenants en les mettant face à une épreuve chronomètre, projeté sur un plateau tv de jeu, ils/elles devront prendre connaissance de la thématique et trouver les affirmations juste parmi une liste d’affirmation que vous aurez préparez avec soins en fonction de votre formation ou de votre module, mais attention à rester concentré il ne doit en rester qu’une ! \nLe formateur peut créer et personnaliser le jeu (choix des réponses, choix des questions, chrono) \nFront: React \nBack: Symfony",
       },
       {
-        titre: "WinWinDeveloppement - Site vitrine",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/winwinVitrine.png`,
-        url: "https://winwindeveloppement.fr",
+        titre: "Witfizz - Site vitrine",
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/witfizz/witfizz.png`],
+        url: "https://witfizz.fr",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.next],
-        courteDescription: "Site vitrine pour l'application WinWinDéveloppement",
+        courteDescription: "Site vitrine pour l'application Witfizz",
         competence: [COMPETENCE.nextjs, COMPETENCE.bootstrap],
         description:
-          "Mise en place d’un site vitrine de présentation de l’application WinWinDéveloppement \nReproduction maquette figma \nAccessibilité + responsive",
+          "Mise en place d’un site vitrine de présentation de l’application Witfizz \nReproduction maquette figma \nAccessibilité + responsive",
       },
       {
         titre: "Close Info",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/closeInfo.png`,
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/closeInfo.png`],
         url: "https://close-info.fr/",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.react, CATEGORIE_PROJET.express],
         courteDescription:
@@ -287,7 +345,7 @@ export const DATA = {
       },
       {
         titre: "Natam",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/natam.png`,
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/natam.png`],
         url: "https://natam.fr/",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.javascript, CATEGORIE_PROJET.react],
         courteDescription: "Site vitrine Natam + application administration en React",
@@ -301,8 +359,18 @@ export const DATA = {
           "Présentation de l’équipe, des différents services, mise à disposition d’un catalogue \nMise en place d’un chatbot \nMise en place d’un suivi d’actualité avec l’API de twitter \nCréation d’un formulaire de devis / estimation \nCréation de l'API Natam avec SpringBoot \nMise en place CRUD \nMise en place route publique et sécurisé \nCréation token JWT (SpringSecurity) \nCréation d'une application web React \nUtilisation hook de React + hook de React redux \nMise en place route avec react router \nMise en place authentification + Stockage JWT dans cookie sécurisé \nAfficher les newsletters \nAfficher les devis et estimation de l’entreprise avec filtre selon statut (en cours ou terminer) \nDéploiement en production sur OVH",
       },
       {
+        titre: "Natam - API",
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/natam.png`],
+        url: "https://natam.fr/",
+        categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.java],
+        courteDescription: "API site vitrine Natam en java spring boot",
+        competence: [COMPETENCE.java, COMPETENCE.springBoot],
+        description:
+          "Création de l'API Natam avec SpringBoot \nMise en place CRUD \nMise en place route publique et sécurisé \nCréation token JWT (SpringSecurity)",
+      },
+      {
         titre: "Projet 7 OC - Groupomania",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/groupomania.PNG`,
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/groupomania.PNG`],
         url: "https://colligregory-groupomania.netlify.app",
         categorie: [
           CATEGORIE_PROJET.openclassroom,
@@ -317,7 +385,7 @@ export const DATA = {
       },
       {
         titre: "Roulette casino",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/roulette.PNG`,
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/roulette.PNG`],
         url: "https://natam-roulette.netlify.app",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.angular],
         courteDescription: "Roulette crypto avec Metamask, \nFront - Angular, \nBack - Express",
@@ -327,7 +395,7 @@ export const DATA = {
       },
       {
         titre: "Projet 6 OC - Piiquante",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/piiquante.PNG`,
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/piiquante.PNG`],
         url: "https://nostalgic-jennings-992350.netlify.app/",
         categorie: [CATEGORIE_PROJET.openclassroom, CATEGORIE_PROJET.express],
         courteDescription: "Projet 6 OpenClassroom - Application d'avis gastronomiques",
@@ -337,7 +405,7 @@ export const DATA = {
       },
       {
         titre: "Clash Royale API",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/clashRoyaleAPI.PNG`,
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/clashRoyaleAPI.PNG`],
         url: "https://clashroyaleapi.netlify.app",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.react],
         courteDescription: "Utilisation de l'API du jeu Clash Royale, \nHébergement sur Netlify",
@@ -347,7 +415,7 @@ export const DATA = {
       },
       {
         titre: "Portfolio",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/portfolio.PNG`,
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/portfolio.PNG`],
         url: "#",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.react],
         courteDescription: "Portfolio avec React",
@@ -357,7 +425,7 @@ export const DATA = {
       },
       {
         titre: "Site Web - Utilisation API public",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/tft.PNG`,
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/tft.PNG`],
         url: "https://colli-gregory.alwaysdata.net/blizzardTft/",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.angular, CATEGORIE_PROJET.php],
         courteDescription:
@@ -368,7 +436,7 @@ export const DATA = {
       },
       {
         titre: "Projet 5 OC - Kanap",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/kanap.PNG`,
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/kanap.PNG`],
         url: "https://greg13013.github.io/P5_Kanap/",
         categorie: [CATEGORIE_PROJET.openclassroom, CATEGORIE_PROJET.javascript],
         courteDescription: "Projet 5 OpenClassroom - Site e-commerce canapé",
@@ -378,7 +446,7 @@ export const DATA = {
       },
       {
         titre: "Projet 4 OC - La chouette agence",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/laChouetteAgence.PNG`,
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/laChouetteAgence.PNG`],
         url: "https://greg13013.github.io/P4_LaChouetteAgence/",
         categorie: [CATEGORIE_PROJET.openclassroom],
         courteDescription: "Projet 4 OpenClassroom - Performance / SEO / Accessibilité",
@@ -388,7 +456,7 @@ export const DATA = {
       },
       {
         titre: "Projet 3 OC - Ohmyfood",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/ohmyfood.PNG`,
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/ohmyfood.PNG`],
         url: "https://greg13013.github.io/P3_Ohmyfood/",
         categorie: [CATEGORIE_PROJET.openclassroom],
         courteDescription: "Projet 3 OpenClassroom - Reproduction maquette avec animation",
@@ -398,7 +466,7 @@ export const DATA = {
       },
       {
         titre: "Projet 2 OC - Booki",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/booki.PNG`,
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/booki.PNG`],
         url: "https://greg13013.github.io/P2_Booki/",
         categorie: [CATEGORIE_PROJET.openclassroom],
         courteDescription: "Projet 2 OpenClassroom - Reproduction maquette",
@@ -408,7 +476,7 @@ export const DATA = {
       },
       {
         titre: "Eauservicedebebe",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/eauservicedebebe.PNG`,
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/eauservicedebebe.PNG`],
         url: "https://eauservicedebebe.fr",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.angular],
         competence: [COMPETENCE.angular],
@@ -419,7 +487,7 @@ export const DATA = {
       },
       {
         titre: "Site web - Jeux snake",
-        image: `${import.meta.env.VITE_URL}/assets/img/projets/snake.PNG`,
+        image: [`${import.meta.env.VITE_URL}/assets/img/projets/snake.PNG`],
         url: "https://greg13013.github.io/snake/",
         categorie: [CATEGORIE_PROJET.perso, CATEGORIE_PROJET.javascript, CATEGORIE_PROJET.jeu],
         courteDescription: "Javascript - Reproduction snake",

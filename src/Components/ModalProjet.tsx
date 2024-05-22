@@ -1,13 +1,14 @@
 import React from "react";
 import { Button, Image, Modal } from "react-bootstrap";
 import { getIcone } from "../utils";
+import Carroussel from "./Carroussel";
 import Typography from "./Typography";
 
 interface IModalProjetProps {
   openModal: boolean;
   displayModal: () => void;
 
-  imgUrl: string;
+  imgUrl: string[];
   titre: string;
   urlSite: string;
   description: string;
@@ -46,7 +47,7 @@ const ModalProjet: React.FC<IModalProjetProps> = ({
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <Image src={imgUrl} />
+        <Carroussel imgUrl={imgUrl} />
         <Typography italic>{competence.join(" / ")}</Typography>
         <Typography className="formatageText" color="text-black">
           {description}
@@ -60,7 +61,7 @@ const ModalProjet: React.FC<IModalProjetProps> = ({
         >
           Lien vers le site
         </Button>
-        <Button>Close</Button>
+        <Button>Fermer</Button>
       </Modal.Footer>
     </Modal>
   );

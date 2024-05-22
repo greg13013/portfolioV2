@@ -17,6 +17,7 @@ export const CATEGORIE_PROJET = {
   openclassroom: "Openclassroom",
   perso: "Perso",
   jeu: "Jeu",
+  java: "Java",
 };
 
 export const COMPETENCE = {
@@ -41,4 +42,6 @@ export const COMPETENCE = {
   mui: "Material UI",
   socketio: "Socket.io",
   bootstrap: "Bootstrap",
+  java: "Java",
+  springBoot: "Spring Boot",
 };

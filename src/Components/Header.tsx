@@ -18,7 +18,7 @@ export const Header = () => {
               {DATA.main.nom} - {DATA.main.statut}
               <Typewriter
                 options={{
-                  strings: ["React", "Angular", "Next", "Symfony", "ExpressJs"],
+                  strings: ["React", "Angular", "Next", "Symfony", "ExpressJs", "Java"],
                   autoStart: true,
                   loop: true,
                 }}

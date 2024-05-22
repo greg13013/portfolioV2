@@ -9,6 +9,7 @@ interface ITypographyProps {
   italic?: boolean;
   color?: "text-white" | "text-black" | undefined;
   style?: React.CSSProperties;
+  onClick?: () => void;
 }
 
 const Typography: React.FC<ITypographyProps> = ({
@@ -20,6 +21,7 @@ const Typography: React.FC<ITypographyProps> = ({
   className,
   color,
   style,
+  onClick,
 }) => {
   const getStyles = React.useCallback(() => {
     const styles: string[] = ["typoP"];
@@ -37,7 +39,7 @@ const Typography: React.FC<ITypographyProps> = ({
   }, [h2, h3, disabledMargin, italic, className, color]);
 
   return (
-    <p className={getStyles()} style={style}>
+    <p onClick={onClick} className={getStyles()} style={style}>
       {children}
     </p>
   );
